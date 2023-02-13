@@ -16,5 +16,7 @@ Heres an example of my work:
 ![i Think i love u](art/bloodiey-furry-love.png).
 ![mordido un perro](art/bloodiey-furry-lovedog.png).
 
-its not the best but i tried
+its not the best but I tried
+
+NOTE: I'm still a newbie so dont be mad at me.
 
