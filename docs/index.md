@@ -17,4 +17,3 @@ Heres an example of my work:
 ![mordido un perro](art/bloodiey-furry-lovedog.png).
 
 its not the best but i tried
-
