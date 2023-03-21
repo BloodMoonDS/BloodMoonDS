@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "pica": "^9.0.1"
+  },
+  "name": "bloodmoonds",
+  "description": "I'm Nicolas Aka bloodiey I'm a newbie game developer.",
+  "version": "1.0.0",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "sac"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BloodMoonDS/BloodMoonDS.git"
+  },
+  "keywords": [
+    "entretainement",
+    "other"
+  ],
+  "author": "Bloodiey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BloodMoonDS/BloodMoonDS/issues"
+  },
+  "homepage": "https://github.com/BloodMoonDS/BloodMoonDS#readme"
+}
