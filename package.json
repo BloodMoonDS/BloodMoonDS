@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "cropperjs": "^1.5.13",
+    "jimp": "^0.22.7",
+    "looks-same": "^8.1.0",
+    "merge-images": "^2.0.0",
     "pica": "^9.0.1"
   },
   "name": "bloodmoonds",
@@ -9,7 +13,6 @@
   "directories": {
     "doc": "docs"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "sac"
   },
