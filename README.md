@@ -2,9 +2,9 @@
 
 I'm Nicolas Aka bloodiey I'm a newbie game developer.
 
-
 im single btw.
 ![Vegeta Died :(](art/vegeta-died.png)
+
 ## Hobbies
 
 I also like videogame modding, my most modded videogames are FNF (friday night funkin) and minecraft.
@@ -20,4 +20,4 @@ its not the best but I tried
 
 NOTE: I'm still a newbie so dont be mad at me.
 
-![When When](assets/SPOILER_NOOOOOOOOOOOOOOOO.mp4)
+xddd
