@@ -1,4 +1,5 @@
 # Bloodiey / BloodMoonDS / Nicolas
+He Him|B|Bisexual|
 
 I'm Nicolas Aka bloodiey I'm a newbie game developer.
 
