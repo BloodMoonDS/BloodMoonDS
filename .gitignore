@@ -1,2 +1,9 @@
 /gwd_preview_index/
 /node_modules/
+.vs/
+gwd_preview_index/
+node_modules/
+.vs/
+/gwd_preview_index
+/node_modules
+/.vs
