@@ -1,41 +1,54 @@
 import tkinter as tk
 from PIL import Image, ImageTk
+window = tk.Tk()
+window.title("Boykisser Adventure")
 
 # Define fixed window size
 window_width = 320
 window_height = 240
-
+# CurFrame
+curframe = 0
 # Define initial position
 x_pos = 0
 y_pos = 0
+# Defines Default background
+BgImage = Image.open("assets/sprites/fakeBag.png")
+CurBg = ImageTk.PhotoImage(BgImage)
+def UpdateBG(path):
+    BgImage = Image.open(path)
+    CurBg = ImageTk.PhotoImage(BgImage)
 
 # Define initial velocity
 x_velocity = 0
 y_velocity = 0
-
+def renderbg():
+    canvas.create_image(0, 0, anchor=tk.NW, image=CurBg)
 def move_image(event):
-    global x_pos, y_pos, x_velocity, y_velocity
+    global x_pos, y_pos, x_velocity, y_velocity,curframe
     
     # Adjust the velocity based on the arrow key pressed
     if event.keysym == "Right":
         x_velocity = 10
+        
     elif event.keysym == "Left":
         x_velocity = -10
     elif event.keysym == "Down":
         y_velocity = 10
+
     elif event.keysym == "Up":
         y_velocity = -10
     
     # Update the position based on velocity
     x_pos += x_velocity
     y_pos += y_velocity
-    
+    print(x_pos)
+    print(y_pos)
     # Clear the canvas
     canvas.delete("all")
     
     # Draw the black background
     canvas.create_rectangle(0, 0, window_width, window_height, fill="black")
-    
+    renderbg()
     # Draw the image at the updated position
     canvas.create_image(x_pos, y_pos, anchor=tk.NW, image=tk_image)
 
@@ -48,14 +61,16 @@ def release_key(event):
     elif event.keysym in {"Down", "Up"}:
         y_velocity = 0
 
-window = tk.Tk()
-window.title("Move Image with Arrow Keys")
+
+img2 = Image.open("assets/sprites/bg/grass.png")
+CurBg = ImageTk.PhotoImage(img2)
 
 # Set the window size to a fixed value
 window.geometry(f"{window_width}x{window_height}")
 
 # Load the image
-image = Image.open("assets/sprites/Ship.png")  # Replace with your image file path
+
+image = Image.open("assets/sprites/Boykisser.png")  # Replace with your image file path
 tk_image = ImageTk.PhotoImage(image)
 
 # Create a Canvas widget with the fixed window size
@@ -64,8 +79,9 @@ canvas.pack()
 
 # Draw the black background
 canvas.create_rectangle(0, 0, window_width, window_height, fill="black")
-
 # Draw the image on the Canvas
+renderbg()
+
 canvas.create_image(x_pos, y_pos, anchor=tk.NW, image=tk_image)
 
 # Make the window non-resizable
