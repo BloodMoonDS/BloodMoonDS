@@ -1,5 +1,6 @@
 import tkinter as tk
 from PIL import Image, ImageTk
+import pygame
 window = tk.Tk()
 window.title("Boykisser Adventure")
 
@@ -14,6 +15,17 @@ y_pos = 0
 # Defines Default background
 BgImage = Image.open("assets/sprites/fakeBag.png")
 CurBg = ImageTk.PhotoImage(BgImage)
+
+
+# Initialize pygame
+pygame.init()
+
+# Load the music file (replace 'music.mp3' with your file)
+pygame.mixer.music.load('assets/music/SillyCat.mid')
+
+# Play the music
+pygame.mixer.music.play()
+
 def UpdateBG(path):
     BgImage = Image.open(path)
     CurBg = ImageTk.PhotoImage(BgImage)
