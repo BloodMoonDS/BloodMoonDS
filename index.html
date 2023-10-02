@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>BloodMoonDS</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <meta name="generator" content="Google Web Designer 15.3.0.0828">
   <meta name="template" content="Expandable 3.0.0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -122,13 +123,13 @@
       height: 65px;
       transform-origin: 50% 50% 0px;
     }
-    .gwd-button-1phn {
+    .gwd-button-1k14 {
       position: absolute;
       height: 24px;
+      width: 249px;
+      transform-origin: 50% 50% 0px;
       left: 50%;
       top: 50%;
-      width: 137px;
-      transform-origin: 50% 50% 0px;
       transform: translate(-50%, -50%);
     }
     @media (width: 550px) and (height: 400px) {}
@@ -150,17 +151,20 @@
     gwd.redirecttoyoutube = function(event) {
       window.location.href = "https://www.youtube.com/channel/UCyxlzGj52VJJPpZk1YWCvMw";
     };
+    gwd.gotoyt = function(event) {
+      window.location.href = "https://www.youtube.com/@BloodieyTheCat/videos";
+    };
   </script>
   <script type="text/javascript" gwd-events="registration">
     // Código de soporte para la administración de eventos en Google Web Designer
     // Este bloqueo de la secuencia de comandos se genera automáticamente. No lo edite.
     gwd.actions.events.registerEventHandlers = function(event) {
       gwd.actions.events.addHandler('button_1', 'click', gwd.auto_Button_1Click, false);
-      gwd.actions.events.addHandler('button_2', 'click', gwd.redirecttoyoutube, false);
+      gwd.actions.events.addHandler('button_2', 'click', gwd.gotoyt, false);
     };
     gwd.actions.events.deregisterEventHandlers = function(event) {
       gwd.actions.events.removeHandler('button_1', 'click', gwd.auto_Button_1Click, false);
-      gwd.actions.events.removeHandler('button_2', 'click', gwd.redirecttoyoutube, false);
+      gwd.actions.events.removeHandler('button_2', 'click', gwd.gotoyt, false);
     };
     document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
     document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
@@ -181,7 +185,7 @@
       <div class="gwd-page-content gwd-div-13m3">
         <gwd-image source="assets/grrgoorbe-1 (1).gif" scaling="stretch" id="gwd-image_1" class="gwd-image-2uq4 gwd-image-1nxl"></gwd-image>
         <gwd-audio sources="assets/Water Palace_ Act 1 _Back 2 Back - Digital Remakin_ Track_ - Sonic Generations (3DS)(MP3_320K).mp3" id="gwd-audio_1" class="gwd-audio-mtml" loop="" autoplay=""></gwd-audio>
-        <button id="button_2" class="gwd-button-1phn">my youtube channel</button>
+        <button id="button_2" class="gwd-button-1k14">YT Channel</button>
       </div>
     </gwd-page>
   </gwd-pagedeck>

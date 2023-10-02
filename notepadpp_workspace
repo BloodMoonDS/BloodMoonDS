@@ -1,0 +1,83 @@
+<NotepadPlus>
+    <Project name="BloodMoonDS">
+        <Folder name=".vs">
+            <Folder name="BloodMoonDS">
+                <Folder name="v17">
+                    <File name=".vs\BloodMoonDS\v17\.suo" />
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="art">
+            <File name="art\bloodiey-furry-love.png" />
+            <File name="art\bloodiey-furry-lovedog.png" />
+            <File name="art\Bloodiey-photo.jpg" />
+            <File name="art\bloodiey-the-furry-cat.png" />
+            <File name="art\mauzymice-cat.gif" />
+            <File name="art\me-when-not-single.gif" />
+            <File name="art\vegeta-died.png" />
+        </Folder>
+        <Folder name="assets">
+            <File name="assets\355abf4e023f93309a9363ea32cc66b8.jpg" />
+            <File name="assets\b87edb7b0baa703e36dca5e54a571580.jpg" />
+            <File name="assets\grrgoorbe-1 (1).gif" />
+            <File name="assets\SPOILER_NOOOOOOOOOOOOOOOO.mp4" />
+            <File name="assets\Water Palace_ Act 1 _Back 2 Back - Digital Remakin_ Track_ - Sonic Generations (3DS)(MP3_320K).mp3" />
+            <File name="assets\WhatsApp Image 2023-03-24 at 4.58.26 PM.jpeg" />
+        </Folder>
+        <Folder name="docs">
+            <File name="docs\index.md" />
+            <File name="docs\_config.yml" />
+        </Folder>
+        <Folder name="gwd_preview_index">
+            <Folder name="webcomponentsjs">
+                <File name="gwd_preview_index\webcomponentsjs\web-animations-next-lite.min.js" />
+                <File name="gwd_preview_index\webcomponentsjs\webcomponents-lite.js" />
+            </Folder>
+            <File name="gwd_preview_index\favicon.ico" />
+            <File name="gwd_preview_index\grrgoorbe-1__1_.gif" />
+            <File name="gwd_preview_index\gwd-events-support.1.0.js" />
+            <File name="gwd_preview_index\gwdaudio_min.js" />
+            <File name="gwd_preview_index\gwdaudio_style.css" />
+            <File name="gwd_preview_index\gwdimage_min.js" />
+            <File name="gwd_preview_index\gwdimage_style.css" />
+            <File name="gwd_preview_index\gwdpagedeck_min.js" />
+            <File name="gwd_preview_index\gwdpagedeck_style.css" />
+            <File name="gwd_preview_index\gwdpage_min.js" />
+            <File name="gwd_preview_index\gwdpage_style.css" />
+            <File name="gwd_preview_index\gwdvideo_min.js" />
+            <File name="gwd_preview_index\gwdvideo_style.css" />
+            <File name="gwd_preview_index\gwd_webcomponents_v1_min.js" />
+            <File name="gwd_preview_index\index.html" />
+            <File name="gwd_preview_index\preview.html" />
+            <File name="gwd_preview_index\preview_polymer.js" />
+            <File name="gwd_preview_index\SPOILER_NOOOOOOOOOOOOOOOO.mp4" />
+            <File name="gwd_preview_index\Water_Palace__Act_1__Back_2_Back_-_Digital_Remakin__Track__-_Sonic_Generations__3DS__MP3_320K_.mp3" />
+        </Folder>
+        <File name=".gitignore" />
+        <File name="app.py" />
+        <File name="BloodMoonDS.njsproj" />
+        <File name="BloodMoonDS.sln" />
+        <File name="BloodMoonDS_groups_archive" />
+        <File name="favicon.ico" />
+        <File name="gwd-events-support.1.0.js" />
+        <File name="gwdaudio_min.js" />
+        <File name="gwdaudio_style.css" />
+        <File name="gwdimage_min.js" />
+        <File name="gwdimage_style.css" />
+        <File name="gwdpagedeck_min.js" />
+        <File name="gwdpagedeck_style.css" />
+        <File name="gwdpage_min.js" />
+        <File name="gwdpage_style.css" />
+        <File name="gwdvideo_min.js" />
+        <File name="gwdvideo_style.css" />
+        <File name="gwd_webcomponents_v1_min.js" />
+        <File name="gwd_workspace.json" />
+        <File name="index.html" />
+        <File name="index_groups_archive" />
+        <File name="init.py" />
+        <File name="main.js" />
+        <File name="package-lock.json" />
+        <File name="package.json" />
+        <File name="README.md" />
+    </Project>
+</NotepadPlus>
