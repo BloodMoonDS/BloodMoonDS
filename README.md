@@ -1,12 +1,18 @@
-# Bloodiey / BloodMoonDS / Nicolas
+# Bloodiey / BloodMoonDS
 
 He Him|B|Bisexual|
 
-I'm Nicolas Aka bloodiey I'm a newbie game developer.
+I'm bloodiey I'm a newbie game developer.
 
 im not single Anymore.
 
 ![Vegeta Dance :D](art/me-when-not-single.gif)
+
+## interesting projects
+
+Here comes my FnF Mod Which is my most elaborated project
+
+[Friday Night Funkin': Vs Bloodiey (BETA)](https://github.com/BloodMoonDS/vs-bloodiey-fnf)
 
 ## Hobbies
 
