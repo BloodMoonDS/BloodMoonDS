@@ -209,7 +209,14 @@ label start:
                 jump hablar2
         label coquetear2:
             "Que ganas de darte bien el el orto"
+            show bloodiey blush shame
             Bloodiey "EHHHHHHHH!?"
+            Bloodiey "Espera Ehhhhhhh no... puedo"
+            Bloodiey "Tengo que hacer Mi plataforma y..."
+            "Shhhhhhhhhh"
+            "Solo es una noche es lunes todavia tienes toda la semana"
+            "podemos pasar la noche juntos 7u7"
+            Bloodiey "eeeeh..."
             jump game_end
         label hablar2:
         jump game_end
