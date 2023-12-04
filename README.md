@@ -28,7 +28,7 @@ I like to draw when bored so I waste my time in a good way (I hate when my perso
 
 Heres an example of my work:
 
-![Uhm](art/Bloodiey-photo.jpg).
+![Uhm](art/229%20sin%20título_20231201211414.jpg).
 
 its not the best but I tried
 
