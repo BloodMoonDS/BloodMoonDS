@@ -3,7 +3,7 @@
 # Declara los personajes usados en el juego como en el ejemplo:
 
 define e = Character("Eileen")
-define sounds = ["audio/Voices/voice_hugo.ogg","audio/Voices/voice_alice.ogg","audio/Voices/voice_kenia.ogg","audio/Voices/voice_camacho.ogg"]
+define sounds = ["audio/Voices/voice_bloodiey.ogg","audio/Voices/voice_alice.ogg","audio/Voices/voice_kenia.ogg","audio/Voices/voice_camacho.ogg"]
 
 init python:
     def type_sound(event, interact=True, **kwargs):
@@ -187,6 +187,7 @@ init python:
 # define camacho = Character("camacho",color="#73ff00",callback=type_sound_camacho)
 define Bloodiey = Character("Bloodiey",color="#0011ff",callback=type_sound)
 label start:
+    play music "audio/town.ogg"
     scene bg classroom
 
     show bloodiey happy
@@ -233,7 +234,8 @@ label start:
         label hablar2:
         jump game_end
     label sexScene:
-        scene bg hugoroom
+        play music "audio/Music/B/mus_kindandfair.ogg"
+        scene bg lewdroom
         show bloodiey true shame
         Bloodiey "Ehhhhhhhhhhh..."
         show bloodiey grab shame
