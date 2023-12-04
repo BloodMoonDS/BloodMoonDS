@@ -28,3 +28,4 @@ game/saves/
 game/saves
 ./game/saves
 **.rpyc
+**.bak

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>BloodMoonDS</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <meta name="generator" content="Google Web Designer 15.3.0.0828">
+  <meta name="generator" content="Google Web Designer 16.0.0.1107">
   <meta name="template" content="Expandable 3.0.0">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="gwdpage_style.css" rel="stylesheet" data-version="13" data-exports-type="gwd-page">
@@ -141,6 +141,33 @@
       height: 219px;
       transform-origin: 50% 50% 0px;
     }
+    .gwd-page-1urw {
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-div-6on4 {
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-button-k7r0 {
+      position: absolute;
+      height: 24px;
+      width: 249px;
+      transform-origin: 50% 50% 0px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) translate3d(0px, 38px, 0px);
+    }
+    .gwd-image-9t4h {
+      width: 287px;
+      height: 286px;
+    }
+    .gwd-image-i19p {
+      position: absolute;
+      transform-origin: 50% 50% 0px;
+      left: 0px;
+      top: 0px;
+    }
     @media (width: 550px) and (height: 400px) {}
   </style>
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic" rel="stylesheet" type="text/css">
@@ -163,6 +190,13 @@
     gwd.gotoyt = function(event) {
       window.location.href = "https://www.youtube.com/@BloodieyTheCat/videos";
     };
+    gwd.gotoVisualNovel = function(event) {
+      window.location.href = "docs/index.html";
+    };
+    gwd.auto_Gwd_imagebutton_1Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_2', 'none', 1000, 'linear', 'top');
+    };
   </script>
   <script type="text/javascript" gwd-events="registration">
     // Código de soporte para la administración de eventos en Google Web Designer
@@ -170,10 +204,14 @@
     gwd.actions.events.registerEventHandlers = function(event) {
       gwd.actions.events.addHandler('button_1', 'click', gwd.auto_Button_1Click, false);
       gwd.actions.events.addHandler('button_2', 'click', gwd.gotoyt, false);
+      gwd.actions.events.addHandler('gwd-imagebutton_1', 'click', gwd.auto_Gwd_imagebutton_1Click, false);
+      gwd.actions.events.addHandler('button_3', 'click', gwd.gotoVisualNovel, false);
     };
     gwd.actions.events.deregisterEventHandlers = function(event) {
       gwd.actions.events.removeHandler('button_1', 'click', gwd.auto_Button_1Click, false);
       gwd.actions.events.removeHandler('button_2', 'click', gwd.gotoyt, false);
+      gwd.actions.events.removeHandler('gwd-imagebutton_1', 'click', gwd.auto_Gwd_imagebutton_1Click, false);
+      gwd.actions.events.removeHandler('button_3', 'click', gwd.gotoVisualNovel, false);
     };
     document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
     document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
@@ -196,7 +234,13 @@
         <gwd-image source="assets/grrgoorbe-1 (1).gif" scaling="stretch" id="gwd-image_1" class="gwd-image-2uq4 gwd-image-1nxl"></gwd-image>
         <gwd-audio sources="assets/Water Palace_ Act 1 _Back 2 Back - Digital Remakin_ Track_ - Sonic Generations (3DS)(MP3_320K).mp3" id="gwd-audio_1" class="gwd-audio-mtml" loop="" autoplay=""></gwd-audio>
         <button id="button_2" class="gwd-button-1k14">YT Channel</button>
+        <button id="button_3" class="gwd-button-k7r0">Visual Novel OwO</button>
         <gwd-imagebutton id="gwd-imagebutton_1" up-image="assets/FB_IMG_1680572666208.jpg" over-image="assets/FB_IMG_1680572666208.jpg" down-image="assets/FB_IMG_1680572666208.jpg" scaling="cover" class="gwd-imagebutton-12nm"></gwd-imagebutton>
+      </div>
+    </gwd-page>
+    <gwd-page id="page1_2" class="gwd-page-wrapper gwd-lightbox gwd-page-1urw" data-gwd-width="100%" data-gwd-height="100%" data-gwd-name="Limbo Page">
+      <div class="gwd-page-content gwd-div-6on4">
+        <gwd-image source="assets/Bloodiey Culon.JPG" scaling="stretch" id="Bloodiey_Culon" class="gwd-image-9t4h gwd-image-i19p"></gwd-image>
       </div>
     </gwd-page>
   </gwd-pagedeck>
