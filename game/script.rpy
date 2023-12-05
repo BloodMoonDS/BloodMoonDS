@@ -217,10 +217,31 @@ label start:
             "Solo es una noche es lunes todavia tienes toda la semana"
             "podemos pasar la noche juntos 7u7"
             Bloodiey "eeeeh..."
+            menu:
+                "Coquetear":
+                    jump coquetear3
+                "Hablar":
+                    jump hablar3
+            label coquetear3:
+                "Mucho estrés no es bueno vamos a relajarnos"
+                show bloodiey true shame
+                Bloodiey "E-esta bien..."
+                jump sexScene
+            label hablar3:
+            
             jump game_end
         label hablar2:
         jump game_end
-
+    label sexScene:
+        scene bg hugoroom
+        show bloodiey true shame
+        Bloodiey "Ehhhhhhhhhhh..."
+        show bloodiey grab shame
+        Bloodiey "EHHHHH?!"
+        "Empezemos a divertirnos"
+        scene bg blackbg
+        "Continuará..."
+        jump game_end
     label hablar:
         Bloodiey "Hola jeje"
     label game_end:
