@@ -1,37 +1,15 @@
+
+![bloodiey-icon](art/lgbt_avatar.jpg)
+
 # Bloodiey / BloodMoonDS
 
-He Him|B|Bisexual|
+He / him Bisexual / in relationship / a newbie programmer that likes technology a lot, likes to create videogame-related stuff, also I like emulation and 3D and 2D digital art in general not only furry art and retro stuff (i use a fallout terminal in linux named cool retro term)
 
-I'm bloodiey I'm a newbie game developer.
+<code>sudo echo i love cats</code>
 
-im not single Anymore.
-
-![Vegeta Dance :D](art/me-when-not-single.gif)
-
-## interesting projects
-
-Here comes my FnF Mod Which is my most elaborated project
-
-[Friday Night Funkin': Vs Bloodiey (BETA)](https://github.com/BloodMoonDS/vs-bloodiey-fnf)
-
-## Hobbies
-
-I am a boykisser.
-
-![Boykisser](art/mauzymice-cat.gif)
-
-I also like some girls tho.
-
-I also like videogame modding, my most modded videogames are FNF (friday night funkin) and minecraft.
-
-I like to draw when bored so I waste my time in a good way (I hate when my personal pc Dies so I have to use the school one 💢).
-
-Heres an example of my work:
-
-![Uhm](art/229%20sin%20título_20231201211414.jpg).
-
-its not the best but I tried
-
-NOTE: I'm still a newbie so dont be mad at me.
-
-xddd
+### Main OSes
+![img](art/icons/windows.png) and ![img](art/icons/linux.png) 
+### Main Linux Distro
+![img](art/icons/ubuntu.png) 
+### languages
+![img](art/icons/java.png)![img](art/icons/javascript.png)![img](art/icons/csharp.png)![img](art/icons/python.png)![img](art/icons/lua.png)![img](art/icons/html.png)![img](art/icons/css.png)
